@@ -1,0 +1,537 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"p_",
+				"p_cat_id"
+			],
+			[
+				"ro",
+				"row_p_cats"
+			],
+			[
+				"get",
+				"get_p_cats"
+			],
+			[
+				"pro",
+				"pro_price"
+			],
+			[
+				"p",
+				"pro_id"
+			],
+			[
+				"mysqli",
+				"mysqli_fetch"
+			],
+			[
+				"sc",
+				"script"
+			],
+			[
+				"product_",
+				"product_keyword"
+			],
+			[
+				"product",
+				"product_desc"
+			],
+			[
+				"pr",
+				"product_img3"
+			],
+			[
+				"prod",
+				"product_title"
+			],
+			[
+				"temp",
+				"temp_name1"
+			],
+			[
+				"col",
+				"col-lg-12"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"fo",
+				"form\tTag"
+			],
+			[
+				"margi",
+				"margin-top\tproperty"
+			],
+			[
+				"slider",
+				"slider_image"
+			],
+			[
+				"border-r",
+				"border-radius\tproperty"
+			],
+			[
+				"marg",
+				"margin-bottom\tproperty"
+			],
+			[
+				"th",
+				"thead\tTag"
+			],
+			[
+				"br",
+				"btn-primary"
+			],
+			[
+				"for",
+				"form-control"
+			],
+			[
+				"te",
+				"textarea\tTag"
+			],
+			[
+				"ma",
+				"margin-right\tproperty"
+			],
+			[
+				"mar",
+				"margin-left\tproperty"
+			],
+			[
+				"fa",
+				"fa-chevron-left"
+			],
+			[
+				"btn",
+				"btn-default"
+			],
+			[
+				"s",
+				"dashed\tborder"
+			],
+			[
+				"d",
+				"display\tproperty"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"img",
+				"img-responsive"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"se",
+				"select\tTag"
+			],
+			[
+				"fa-",
+				"fa-shopping-cart"
+			],
+			[
+				"font",
+				"font-weight\tproperty"
+			],
+			[
+				"box",
+				"box-shadow\tproperty"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"tra",
+				"transform\tproperty"
+			],
+			[
+				"inpu",
+				"input-group"
+			],
+			[
+				"hi",
+				"hidden-lg"
+			],
+			[
+				"hidd",
+				"hidden-md"
+			],
+			[
+				"padd",
+				"padding\tproperty"
+			],
+			[
+				"cl",
+				"clear\tproperty"
+			],
+			[
+				"paddi",
+				"padding-left\tproperty"
+			],
+			[
+				"btn-",
+				"btn-primary"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"width",
+				"width\tproperty"
+			],
+			[
+				"r",
+				"rgb"
+			],
+			[
+				"act",
+				"active"
+			],
+			[
+				"ca",
+				"carousel"
+			],
+			[
+				"sr",
+				"sr-only"
+			],
+			[
+				"navb",
+				"navbar-toggle"
+			],
+			[
+				"border",
+				"border-color\tproperty"
+			],
+			[
+				"co",
+				"collapse"
+			],
+			[
+				"i",
+				"i\tTag"
+			],
+			[
+				"margin",
+				"margin-bottom\tproperty"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"ti",
+				"title\tTag"
+			],
+			[
+				"st",
+				"stdio.h\tstandard header"
+			],
+			[
+				"backgr",
+				"background-color\tproperty"
+			],
+			[
+				"l",
+				"label\tTag"
+			],
+			[
+				"pa",
+				"Password"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"bor",
+				"border-style\tproperty"
+			],
+			[
+				"bo",
+				"border-color\tproperty"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"inli",
+				"inline-block\tdisplay"
+			],
+			[
+				"onl",
+				"onclick\tAttr"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"word",
+				"word-spacing\tproperty"
+			],
+			[
+				"w",
+				"width\tproperty"
+			],
+			[
+				"over",
+				"overflow-x\tproperty"
+			],
+			[
+				"fonts",
+				"font-size\tproperty"
+			],
+			[
+				"a",
+				"auto\twidth"
+			],
+			[
+				"c",
+				"cover\tbackground-size"
+			],
+			[
+				"bac",
+				"background-size\tproperty"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"hea",
+				"header\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/var/www/html/MaMa/style.css",
+		"/var/www/html/MaMa/index.php",
+		"/var/www/html/MaMa/customer/account.php",
+		"/home/zain/Downloads/chatserver/MyClient$2.class",
+		"/home/zain/Documents/insurance.csv",
+		"/var/www/html/MaMa/functions/functions.php",
+		"/var/www/html/MaMa/includes/footer.php",
+		"/var/www/html/MaMa/includes/sidebar.php",
+		"/var/www/html/MaMa/includes/db.php",
+		"/var/www/html/MaMa/about.php",
+		"/var/www/html/MaMa/extra item",
+		"/var/www/html/MaMa/shop.php",
+		"/var/www/html/MaMa/admin_area/insert_product.php",
+		"/var/www/html/MaMa/customer/includes/footer.php",
+		"/var/www/html/MaMa/customer/confirm.php",
+		"/var/www/html/MaMa/contact.php",
+		"/var/www/html/MaMa/details.php",
+		"/var/www/html/MaMa/register.php",
+		"/var/www/html/MaMa/cart.php",
+		"/var/www/html/MaMa/admin_area/functions/functions.php",
+		"/var/www/html/MaMa/customer/pay_offline.php",
+		"/var/www/html/MaMa/customer/includes/sidebar.php",
+		"/var/www/html/MaMa/customer/del_acc.php",
+		"/var/www/html/MaMa/customer/change_pass.php",
+		"/var/www/html/MaMa/customer/edit_act.php",
+		"/var/www/html/MaMa/customer/my_order.php",
+		"/var/www/html/MaMa/customer/includes/header.php",
+		"/var/www/html/MaMa/includes/header.php",
+		"/home/zain/websites/css/style.css",
+		"/home/zain/websites/own/page1.html",
+		"/home/zain/websites/own/page2.html",
+		"/home/zain/websites/page2.html",
+		"/home/zain/websites/page1.html",
+		"/home/zain/websites/index.html",
+		"/home/zain/Desktop/new.c",
+		"/home/zain/websites/images/signup.jpeg",
+		"/home/zain/websites/images/back1.jpg",
+		"/home/zain/websites/images/backgr.jpg",
+		"/home/zain/websites/images/back.jpg",
+		"/home/zain/Desktop/hello.java",
+		"/home/zain/Desktop/one.html"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "sidebar.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 196.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
