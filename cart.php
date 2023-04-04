@@ -56,7 +56,7 @@ include('welcome.php');
 		<div class="container"><!-- container start-->
 			<div class="navbar-header">
 				<a class="navbar-brand home" href="index.php">
-					<img src="images/logo2.jpg" alt="bracket" class="hidden-xs"><!-- LOGO-->
+					<img src="images/logo2.jpg" alt="bracket" class="hidden-xs" style="width:50px; height: 50px;"><!-- LOGO-->
 					<img src="images/logo3.jpg" alt="bracket" class="visible-xs">
 
 				</a>
@@ -182,6 +182,7 @@ include('welcome.php');
 							</thead>
 							<tbody>
 								<?php
+								$total=0;
 								while($row=mysqli_fetch_array($run_cart)){
 									$pro_id=$row['p_id'];
 									$pro_type=$row['type'];
@@ -249,10 +250,11 @@ include('welcome.php');
 
 			<div id="row same-height-row"><!--also like start-->
 				<div class="col-md-3 col-sm-6">
-					<div class="box same-height headline">
-						<h3 class="text-center">Similar Articles</h3>
-						
-					</div>
+					
+					<h3 class="text-center" style="border-style:solid;border-radius: 10px; border-width: 1px; padding: 3px;">
+					Similar Articles</h3>
+					<hr class="hr hr-blurry" style="background-color:#333; height:1px; border: none; margin-top: 1px;">
+				
 				</div><!-- start-->
 
 				
@@ -314,7 +316,7 @@ include('welcome.php');
 					<center><h3>Order Summary</h3></center>				
 				</div>
 				<p class="text-muted">
-					Shipping and additional cost are calculated based on values you have entered
+					Shipping and additional cost are calculated based on values you have entered.
 				</p>
 				<div class="table-responsive">
 					<table class="table">
@@ -334,7 +336,7 @@ include('welcome.php');
 							</tr>
 							<tr class="total">
 								<td>Total</td>
-								<th>INR <?php echo $total+100?></th>>
+								<th>INR <?php echo $total+100?></th>
 							</tr>
 						</tbody>
 					</table>
