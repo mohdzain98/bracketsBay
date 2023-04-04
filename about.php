@@ -90,7 +90,7 @@ include('welcome.php');
 						<li>
 							<a href="index.php">Home</a>
 						</li>
-						<li class="active">
+						<li>
 							<a href="shop.php">Shop</a>
 						</li>
 						<li>
@@ -105,7 +105,7 @@ include('welcome.php');
 						<li>
 							<a href="cart.php">cart</a>
 						</li>
-						<li>
+						<li class="active">
 							<a href="about.php">About Us</a>
 						</li>
 						<li>
