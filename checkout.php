@@ -89,13 +89,13 @@ include('welcome.php');
 			<div class="navbar-collapse collapse" id="navigation"> <!-- navbar start-->
 				<div class="padding-nav"> <!-- padding start-->
 					<ul class="nav navbar-nav navbar-left">
-						<li class="active">
+						<li>
 							<a href="index.php">Home</a>
 						</li>
 						<li>
 							<a href="shop.php">Shop</a>
 						</li>
-						<li>
+						<li class="active">
 							<?php
 						  if (!isset($_SESSION['email'])) {
 						  	echo "<a href='checkout.php'>My Account</a>";
