@@ -45,15 +45,15 @@
 				<p>
 					<strong>bracketsbay.com</strong>
 					<br>Najibabad,UP
-					<br>aflatoon@gmail.com
+					<br>contact@bracketsbay.com
 					<br>+91000000000
 				</p>
 				<h4>Developer Info</h4>
 				<p>
-					<strong>Er. Mohd Zain</strong>
+					<strong>Mohd Zain</strong>
 					<br>zainmohd1998@gmail.com
-					<br>+91 8077115602
-					<br><a href="http://www.mohdzain.com" target="_blank">www.mohdzain.com</a>
+					<br>+91 7310672019
+					<br><a href="https://mohdzain98.github.io/zain.github.io/" target="_blank">Mohd Zain(:Github.com)</a>
 				</p>
 				<a href="contact.php">Goto contact us page</a>
 				<hr class="hidden-md hidden-lg">
@@ -79,10 +79,10 @@
 				<hr>
 				<h4>Stay In Touch</h4>
 				<p class="social">
-					<a href="http://www.facebook.com/zain.rehman.9889"><i class="fa fa-facebook"></i></a>
-					<a href="https://www.instagram.com/invites/contact/?i=ct896xo9hluj&utm_content=1mdjcq0"><i class="fa fa-instagram"></i></a>
-					<a href="https://twitter.com/mdzain98?s=09"><i class="fa fa-twitter"></i></a>
-					<a href="#"><i class="fa fa-envelope"></i></a>
+					<a href="http://www.facebook.com/zain.rehman.9889" style="background-color: #0d6efd;"><i class="fa fa-facebook"></i></a>
+					<a href="https://www.instagram.com/m0hd.zain/" style="background-color: #dc3545;"><i class="fa fa-instagram"></i></a>
+					<a href="https://twitter.com/mdzain98?s=09" style="background-color: #0d6efd;"><i class="fa fa-twitter"></i></a>
+					<a href="#" style="background-color: #dc3545;"><i class="fa fa-envelope"></i></a>
 				</p>
 				
 			</div>
