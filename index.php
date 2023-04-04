@@ -63,8 +63,8 @@ include('welcome.php');
 		<div class="container"><!-- container start-->
 			<div class="navbar-header">
 				<a class="navbar-brand home" href="index.php">
-					<img src="images/logo2.jpg" alt="bracket" class="hidden-xs"><!-- LOGO-->
-					<img src="images/logo3.jpg" alt="bracket" class="visible-xs">
+					<img src="images/logo2.jpg" alt="bracket" class="hidden-xs" style="width:50px; height: 50px;"><!-- LOGO-->
+					<img src="images/logo3.jpg" alt="bracket" class="visible-xs" style="width:50px; height: 50px;">
 
 				</a>
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
