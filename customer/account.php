@@ -11,7 +11,8 @@ if (!isset($_SESSION['email'])) {
 <html>
 <head>
 	<title>Brackets Store</title>
-
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="../style.css">
      
@@ -49,9 +50,7 @@ if (!isset($_SESSION['email'])) {
 		<div class="container"><!-- container start-->
 			<div class="navbar-header">
 				<a class="navbar-brand home" href="../index.php">
-					<img src="../images/logo2.jpg" alt="bracket" class="hidden-xs"><!-- LOGO-->
-					<img src="../images/logo3.jpg" alt="bracket" class="visible-xs">
-
+					<img src="../images/logo.png" alt="bracket" class="hidden-xs" style="width:50px; height:50px;"><!-- LOGO-->
 				</a>
 
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
