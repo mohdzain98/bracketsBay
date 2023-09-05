@@ -8,7 +8,8 @@ include('welcome.php');
 <html>
 <head>
 	<title>Brackets Store</title>
-
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="style.css">
      
@@ -56,8 +57,7 @@ include('welcome.php');
 		<div class="container"><!-- container start-->
 			<div class="navbar-header">
 				<a class="navbar-brand home" href="index.php">
-					<img src="images/logo2.jpg" alt="bracket" class="hidden-xs" style="width:50px; height: 50px;"><!-- LOGO-->
-					<img src="images/logo3.jpg" alt="bracket" class="visible-xs">
+					<img src="images/logo.png" alt="bracket" style="width:50px; height: 50px;">
 
 				</a>
 
@@ -72,15 +72,6 @@ include('welcome.php');
 					<i class="fa fa-caret-square-o-down"></i>
 					
 				</button>
-
-
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#search">
-					<span class="sr-only"></span>
-					<i class="fa fa-search"></i>
-				</button>
-
-
-
 				
 			</div><!-- header end-->
 
@@ -120,16 +111,6 @@ include('welcome.php');
 					<span><?php item(); ?> Items in cart</span>
 				</a>
 
-				<div class="navbar-collapse collapse right">
-	                <button class="btn navbar-btn btn-primary" type="button" data-toggle="collapse" data-target="#search">
-						<span class="sr-only">Toggle Search</span>
-						<i class="fa fa-search"></i>
-
-
-						
-	             	</button>
-					
-				</div>
 				<div class="collapse clearfix" id="search"> 
 					<form class="navbar-form" method="get" action="result.php">
 						<div class="input-group">
@@ -179,71 +160,15 @@ include('welcome.php');
 					    <h4>Umar Handicraft,Najibabad. Dist.Bijnor UP 246763</h4>
 				    </center>
 			    </div>
+			    <h3 style="margin-left: 5px;">Our Legacy</h3>
+			    <p>We are in this business from decades. This work of handicraft was started by our father Late. Mohd Abdulla when he left Dehradun and moved to Najibabad. His work soon became popular and recognized when he used his handicraft knowledge. We are and will try to wear his boot in our journey in this business.  </p>
+			    <br>
+			    <p style="display: inline-block; margin-left: 5px;">Here in najibabad we are three brothers <p style="display: inline-block; font-weight: bold;"> Shahanawaz, Shadab and Shahroz</p>.</p>
+			    <p> one of us handle the work of raw material like different type of wood, its purchase. Other one see the work of packaging and polish. Third one handles the consumers and delievery of the order.</p>
+
 		    </div>
 		    
-		    <div class="col-md-4"><!--1 card start-->
-		    	<div class="card" style="width: 25rem;">
-		    			<img src="customer/cimages/zain.JPG" class="card-img-top img-responsive">
-		    		
-		          <ul class="list-group list-group-flush">
-    				<li class="list-group-item">Name: Mohd Zain</li>
-    				<li class="list-group-item">Email: zainmohd@gmail.com</li>
-    				<li class="list-group-item">phone: +917310672019</li>
-    				<li class="list-group-item">Adress: Najibabad,Bijnor,U.P.</li>
- 			     
- 			    <div class="card-body">
- 			  	<p>Follow on:</p>
-    			<a href="http://www.facebook.com/zain.rehman.9889" class="card-link"> <i class="fa fa-facebook"></i></a>
-
-    			<a href="https://www.instagram.com/invites/contact/?i=ct896xo9hluj&utm_content=1mdjcq0" class="card-link"> <i class="fa fa-instagram"></i></a>
-    		    <a href="https://twitter.com/mdzain98?s=09" class="card-link"><i class="fa fa-twitter"></i></a>
- 				</div>
- 				</ul>
-		    		
-		    	</div>
-		    </div><!--1 card End-->
-		    <div class="col-md-4"><!--2 card start-->
-		    	<div class="card" style="width: 25rem;">
-		    			<img src="customer/cimages/z1.jpg" class="card-img-top img-responsive">
-		    		
-		          <ul class="list-group list-group-flush">
-    				<li class="list-group-item">Name: Mohd Zain</li>
-    				<li class="list-group-item">Email: zainmohd@gmail.com</li>
-    				<li class="list-group-item">phone: +917310672019</li>
-    				<li class="list-group-item">Adress: Najibabad,Bijnor,U.P.</li>
- 			     
- 			    <div class="card-body">
- 			  	<p>Follow on:</p>
-    			<a href="http://www.facebook.com/zain.rehman.9889" class="card-link"> <i class="fa fa-facebook"></i></a>
-
-    			<a href="https://www.instagram.com/invites/contact/?i=ct896xo9hluj&utm_content=1mdjcq0" class="card-link"> <i class="fa fa-instagram"></i></a>
-    		    <a href="https://twitter.com/mdzain98?s=09" class="card-link"><i class="fa fa-twitter"></i></a>
- 				</div>
- 				</ul>
-		    		
-		    	</div>
-		    </div><!--2 card End-->
-		    <div class="col-md-4"><!--3 card start-->
-		    	<div class="card" style="width: 25rem;">
-		    			<img src="customer/cimages/z2.jpg" class="card-img-top img-responsive">
-		    		
-		          <ul class="list-group list-group-flush">
-    				<li class="list-group-item">Name: Mohd Zain</li>
-    				<li class="list-group-item">Email: zainmohd@gmail.com</li>
-    				<li class="list-group-item">phone: +917310672019</li>
-    				<li class="list-group-item">Adress: Najibabad,Bijnor,U.P.</li>
- 			     
- 			    <div class="card-body">
- 			  	<p>Follow on:</p>
-    			<a href="http://www.facebook.com/zain.rehman.9889" class="card-link"> <i class="fa fa-facebook"></i></a>
-
-    			<a href="https://www.instagram.com/invites/contact/?i=ct896xo9hluj&utm_content=1mdjcq0" class="card-link"> <i class="fa fa-instagram"></i></a>
-    		    <a href="https://twitter.com/mdzain98?s=09" class="card-link"><i class="fa fa-twitter"></i></a>
- 				</div>
- 				</ul>
-		    		
-		    	</div>
-		    </div><!--3 card End-->
+		    
 
 		</div>
 
