@@ -7,6 +7,8 @@ include("welcome.php");
 
 <?php
 if(isset($_GET['pro_id'])){
+	$p_cat_title="";
+	$p_title="";
 	$pro_id=$_GET['pro_id'];
 	$get_product="select * from products where product_id='$pro_id'";
 	$run_product=mysqli_query($con,$get_product);
@@ -277,18 +279,6 @@ if(isset($_GET['pro_id'])){
 								
 							</div>
 
-							<div class="form-group">
-								<label class="col-md-5 control-label">Product Type</label>
-								<div class="col-md-6">
-									<select name="product_size" class="form-control">
-										<option>select</option>
-										<option>small</option>
-										<option>medium</option>
-										<option>large</option>
-									</select>
-								</div>
-								
-							</div>
 
 							<p class="price">INR <?php echo $p_price;  ?></p>
 							<p class="text-center buttons">
@@ -333,13 +323,12 @@ if(isset($_GET['pro_id'])){
 
 			<div id="row same-height-row"><!--also like start-->
 				<div class="col-md-3 col-sm-6">
-					<div class="box same-height headline">
-						<h3 class="text-center">Similar Articles</h3>
-						
-						<img src="images/similar.jpeg" class="img-responsive navbar-brand home">
-						
-					</div>
-				</div><!-- end-->
+					
+					<h3 class="text-center" style="border-style:solid;border-radius: 10px; border-width: 1px; padding: 3px;">
+					Similar Articles</h3>
+					<hr class="hr hr-blurry" style="background-color:#333; height:1px; border: none; margin-top: 1px;">
+				
+				</div><!-- start-->
 
 				<?php
 				$get_product="select * from products order by 1 LIMIT 0,3";
