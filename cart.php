@@ -8,7 +8,8 @@ include('welcome.php');
 <html>
 <head>
 	<title>Brackets Store</title>
-
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="style.css">
      
@@ -56,8 +57,7 @@ include('welcome.php');
 		<div class="container"><!-- container start-->
 			<div class="navbar-header">
 				<a class="navbar-brand home" href="index.php">
-					<img src="images/logo2.jpg" alt="bracket" class="hidden-xs" style="width:50px; height: 50px;"><!-- LOGO-->
-					<img src="images/logo3.jpg" alt="bracket" class="visible-xs">
+					<img src="images/logo.png" alt="bracket" style="width:50px; height: 50px;">
 
 				</a>
 
@@ -66,14 +66,6 @@ include('welcome.php');
 					<i class="fa fa-align-justify"></i>
 					
 				</button>
-
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#search">
-					<span class="sr-only"></span>
-					<i class="fa fa-search"></i>
-				</button>
-
-
-
 				
 			</div><!-- header end-->
 
@@ -113,16 +105,7 @@ include('welcome.php');
 					<span> <?php item(); ?> Items in cart</span>
 				</a>
 
-				<div class="navbar-collapse collapse right">
-	                <button class="btn navbar-btn btn-primary" type="button" data-toggle="collapse" data-target="#search">
-						<span class="sr-only">Toggle Search</span>
-						<i class="fa fa-search"></i>
 
-
-						
-	             	</button>
-					
-				</div>
 				<div class="collapse clearfix" id="search"> 
 					<form class="navbar-form" method="get" action="result.php">
 						<div class="input-group">
@@ -185,7 +168,7 @@ include('welcome.php');
 								$total=0;
 								while($row=mysqli_fetch_array($run_cart)){
 									$pro_id=$row['p_id'];
-									$pro_type=$row['type'];
+									/*$pro_type=$row['type'];*/
 									$pro_qty=$row['qty'];
 									$get_products="select * from products where product_id='$pro_id'";
 									$run_pro=mysqli_query($con,$get_products);
