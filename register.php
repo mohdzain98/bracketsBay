@@ -8,7 +8,8 @@ include('welcome.php');
 <html>
 <head>
 	<title>Brackets Store</title>
-
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="style.css">
      
@@ -73,15 +74,6 @@ include('welcome.php');
 					<i class="fa fa-caret-square-o-down"></i>
 					
 				</button>
-
-
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#search">
-					<span class="sr-only"></span>
-					<i class="fa fa-search"></i>
-				</button>
-
-
-
 				
 			</div><!-- header end-->
 
@@ -129,19 +121,6 @@ include('welcome.php');
 
 						
 	             	</button>
-					
-				</div>
-				<div class="collapse clearfix" id="search"> 
-					<form class="navbar-form" method="get" action="result.php">
-						<div class="input-group">
-							<input type="text" name="user_query" class="form-control" placeholder="Search" required="">
-							<button type="submit" value="Search" name="search" class="btn btn-primary">
-								<i class="fa fa-search"></i>
-							</button>
-							
-						</div>
-						
-					</form>
 					
 				</div>
 
