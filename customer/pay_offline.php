@@ -18,8 +18,8 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td>035700 1500051296</td>
-					<td>zainmohd1998@icici.com</td>
+					<td>providing..</td>
+					<td>coming</td>
 					<td>01234567890</td>
 					<td>paypal.me/m0hd_za1n</td>
 				</tr>
