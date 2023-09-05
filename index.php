@@ -63,26 +63,20 @@ include('welcome.php');
 		<div class="container"><!-- container start-->
 			<div class="navbar-header">
 				<a class="navbar-brand home" href="index.php">
-					<img src="images/logo2.jpg" alt="bracket" class="hidden-xs" style="width:50px; height: 50px;"><!-- LOGO-->
-					<img src="images/logo3.jpg" alt="bracket" class="visible-xs" style="width:50px; height: 50px;">
+					<img src="images/logo.png" alt="bracket" style="width:50px; height: 50px;"><!-- LOGO-->
 
 				</a>
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
 					<span class="sr-only">Toggle Navigation</span>
 					<i class="fa fa-align-justify"></i>
 					
-				</button>
-
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#search">
-					<span class="sr-only"></span>
-					<i class="fa fa-search"></i>
 				</button> 
 				
 			</div><!-- header end-->
 
 			<div class="navbar-collapse collapse" id="navigation"> <!-- navbar start-->
 				<div class="padding-nav"> <!-- padding start-->
-					<ul class="nav navbar-nav navbar-left animated bounce">
+					<ul class="nav navbar-nav navbar-left">
 						<li class="active">
 							<a href="index.php">Home</a>
 						</li>
@@ -116,16 +110,6 @@ include('welcome.php');
 					<span><?php item(); ?> Items in cart</span>
 				</a>
 
-				<div class="navbar-collapse collapse right">
-	                <button class="btn navbar-btn btn-primary" type="button" data-toggle="collapse" data-target="#search">
-						<span class="sr-only">Toggle search</span>
-						<i class="fa fa-search"></i>
-
-
-						
-	             	</button>
-					
-				</div>
 				<div class="collapse clearfix" id="search"> 
 					<form class="navbar-form" method="get" action="result.php">
 						<div class="input-group">
