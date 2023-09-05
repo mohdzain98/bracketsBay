@@ -53,7 +53,7 @@
 					<strong>Mohd Zain</strong>
 					<br>zainmohd1998@gmail.com
 					<br>+91 7310672019
-					<br><a href="https://mohdzain98.github.io/zain.github.io/" target="_blank">Mohd Zain(:Github.com)</a>
+					<br><a href="https://mohdzain.com/" target="_blank">mohdzain.com</a>
 				</p>
 				<a href="contact.php">Goto contact us page</a>
 				<hr class="hidden-md hidden-lg">
@@ -95,30 +95,35 @@
 </div>
 
 <div id="copyright">
-	<div class="container">
-		<div class="col-md-3">
-			<p class="pull-left"> 
-				&copy; 2020 Er.Mohd Zain
-			</p>	
-		</div>
+    <div class="container">
+        <div class="row">
+        <div class="col-md-3 col-xs-5">
+            <p>
+                &copy; 2023 Brackets Bay
+            </p>
+        
+            <p class="visible-xs">Website By : <a href="#">Umar Handicraft, Najibabad</a>
+                <br></p>    
+        </div>
+        <div class="col-md-3">
+            <p class="center hidden-xs">
+                Website By : <a href="#">Umar Handicraft, Najibabad</a>
+            </p>
+        </div>
+        <div class="col-md-3 col-xs-6">
+            <p>
+                Published on : 05 Sep,2023
+            </p>
+            <p class="visible-xs">Updated on : 05 sep,2023 Version:1.0</p>
+        </div>
+        <div class="col-md-3 col-xs-6">
+            <p class="hidden-xs">
+                Updated on : 05 sep,2023 Version:1.0
 
-		<div class="col-md-3">
-			<p class="center">
-				Website By: <a href="about.php">UMAR HANDICRAFT,Najibabad</a>
-			</p>
-			
-		</div>
-		<div class="col-md-3">
-			<p class="pull-right">
-				Published on : 1 April,2021 
-			</p>
-		</div>
-		<div class="col-md-3">
-			<p class="pull-right">
-				Updated on : 1 April,2021 
-			</p>
-		</div>
-		
-	</div>
-	
+            </p>
+            
+        </div>
+        </div>
+    </div>
+    
 </div>
