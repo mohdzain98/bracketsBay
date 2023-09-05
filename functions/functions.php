@@ -18,14 +18,14 @@ function addcart(){
 		$ip_add=getuserip();
 		$p_id=$_GET['add_cart'];
 		$product_qty=$_POST['product_qty'];
-		$product_size=$_POST['product_size'];
+		/*$product_size=$_POST['product_size'];*/
 		$check_product="select * from cart where ip_address='$ip_add' AND p_id='$p_id'";
 		$run_check=mysqli_query($db,$check_product);
 		if(mysqli_num_rows($run_check)>0){
 			echo "<script>alert('This product is already added in the cart')</script>";
 			echo "<script>window.open('details.php?pro_id=$p_id','_self')</script>";
 		}else{
-			$query="insert into cart(p_id,ip_address,qty,type) values('$p_id','$ip_add','$product_qty','$product_size')";
+			$query="insert into cart(p_id,ip_address,qty) values('$p_id','$ip_add','$product_qty')";
 			$run_query=mysqli_query($db,$query);
 			echo "<script>window.open('details.php?pro_id=$p_id','_self')</script>";
 		}
@@ -76,7 +76,9 @@ function getpro(){
 		<div class='col-md-3 col-sm-6'>
 		<div class='product'>
 		<a href='details.php?pro_id=$pro_id'>
+		<center>
 		<img src='admin_area/productimages/$pro_img1' class='img-responsive'>
+		</center>
 		</a>
 
 		<div class='text'>
@@ -141,7 +143,7 @@ function getpcatpro(){
 			<img src='admin_area/productimages/$pro_img1' class='img-responsive'></a>
 			<div class='text'>
 			<h3><a href='details.php?pro_id=$pro_id'>$pro_title</a></h3>
-			<p class='price'>$pro_price</p>
+			<p class='price'> INR $pro_price</p>
 			<p class='buttons'>
 			<a href='details.php?pro_id=$pro_id' class='btn btn-default'>View Details</a>
 			<a href='details.php?pro_id=$pro_id' class='btn btn-primary'><i class='fa fa-shopping-cart'></i>Add to Cart</a>
