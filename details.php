@@ -7,14 +7,12 @@ include("welcome.php");
 
 <?php
 if(isset($_GET['pro_id'])){
-	$p_cat_title="";
-	$p_title="";
 	$pro_id=$_GET['pro_id'];
 	$get_product="select * from products where product_id='$pro_id'";
 	$run_product=mysqli_query($con,$get_product);
 	$row_product=mysqli_fetch_array($run_product);
 	$p_cat_id=$row_product['p_cat_id'];
-	$p_title=$row_product['product_title'];
+	$p_title=isset($row_product['product_title'])?$row_product['product_title']:' ';
 	$p_price=$row_product['product_price'];
 	$p_desc=$row_product['product_desc'];
 	$p_img1=$row_product['product_img1'];
@@ -24,7 +22,7 @@ if(isset($_GET['pro_id'])){
 	$run_p_cat=mysqli_query($con,$get_p_cat);
 	$row_p_cat=mysqli_fetch_array($run_p_cat);
 	$p_cat_id=$row_p_cat['p_cat_id'];
-	$p_cat_title=$row_p_cat['p_cat_title'];
+	$p_cat_title=isset($row_p_cat['p_cat_title'])?$row_p_cat['p_cat_title']:' ';
 
 
 
@@ -195,11 +193,11 @@ if(isset($_GET['pro_id'])){
 					shop
 				</li>
 				<li>
-					<a href="shop.php?p_cat=<?php echo $p_cat_id; ?>"> <?php echo $p_cat_title ?></a>
+					<a href="shop.php?p_cat=<?php echo $p_cat_id; ?>"> <?php if(isset($p_cat_title)) echo $p_cat_title ?></a>
 					
 				</li>
 				<li>
-					<?php echo $p_title ?>
+					<?php if(isset($p_title)) echo $p_title ?>
 				</li>
 				
 			</ul>
@@ -266,7 +264,7 @@ if(isset($_GET['pro_id'])){
 
 				<div class="col-sm-6">
 					<div class="box">
-						<h1 class="text-center"><?php echo $p_title  ?></h1>
+						<h1 class="text-center"><?php if(isset($p_title)) echo $p_title  ?></h1>
 						<?php
 						addcart();
 						?>
