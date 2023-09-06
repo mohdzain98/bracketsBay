@@ -18,7 +18,6 @@ function addcart(){
 		$ip_add=getuserip();
 		$p_id=$_GET['add_cart'];
 		$product_qty=$_POST['product_qty'];
-		/*$product_size=$_POST['product_size'];*/
 		$check_product="select * from cart where ip_address='$ip_add' AND p_id='$p_id'";
 		$run_check=mysqli_query($db,$check_product);
 		if(mysqli_num_rows($run_check)>0){
