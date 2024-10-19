@@ -1,5 +1,5 @@
 <?php
-$db=mysqli_connect("localhost","root","Geeky@Zain98","MaMa");
+$db=mysqli_connect("localhost","root","Geeky@Zain98","bracketsbay");
 
 /*for getting user ip*/
 function getuserip(){

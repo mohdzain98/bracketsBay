@@ -14,7 +14,7 @@ if (!isset($_SESSION['admin_email'])){
 			<span class="icon-bar"></span>
 		</button>
 		<a href="adminindex.php?dashboard" class="navbar-brand">Admin Panel</a>
-		<a href="http://localhost/MaMa/index.php" target= "_blank" class="navbar-brand">Go To Website</a>
+		<a href="https://mohdzain.com/projects/demo/bracketsbay/" target= "_blank" class="navbar-brand">Go To Website</a>
 	</div>
 	<ul class="nav navbar-right top-nav">
 		<li class="dropdown">
