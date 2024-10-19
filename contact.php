@@ -7,11 +7,16 @@ include('welcome.php');
 
 <html>
 <head>
-	<title>Brackets Store</title>
+	<title>contact | Brackets Store</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="style.css">
+	<link rel="icon" type="image/png" href="./images/favicon-48x48.png" sizes="48x48" />
+	<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
+	<link rel="shortcut icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
+	<link rel="manifest" href="/site.webmanifest" />
      
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

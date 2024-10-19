@@ -14,6 +14,9 @@
 <body>
 
 	<div id="top"> <!-- top bar start -->
+		<div style="background-color: brown; color: white;">
+			<center><p>This project is running on proxy server</p></center>
+		</div>
 		<div class="container"><!-- container start -->
 			<div class="col-md-6 offer">
 				<a href="#" class="btn btn-success btn-sm">WELCOME</a>

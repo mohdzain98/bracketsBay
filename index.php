@@ -11,6 +11,12 @@ include('welcome.php');
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 
+	<link rel="icon" type="image/png" href="./images/favicon-48x48.png" sizes="48x48" />
+	<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
+	<link rel="shortcut icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
+	<link rel="manifest" href="/site.webmanifest" />
+
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"> 
@@ -21,7 +27,9 @@ include('welcome.php');
 
 </head>
 <body>
-
+	<div style="background-color: blue; color:white; padding: 10px 0px;">
+		<center><p style="font-weight: bold;">This Project is running on Proxy Server</p></center>
+	</div>
 	<div id="top"> <!-- top bar start -->
 		<div class="container"><!-- container start -->
 			<div class="col-md-6 offer">

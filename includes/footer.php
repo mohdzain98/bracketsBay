@@ -43,7 +43,7 @@
 
 				<h4>Where To Find Us</h4>
 				<p>
-					<strong>bracketsbay.com</strong>
+					<strong>bracketsbay.com(coming soon)</strong>
 					<br>Najibabad,UP
 					<br>contact@bracketsbay.com
 					<br>+91000000000
@@ -52,7 +52,6 @@
 				<p>
 					<strong>Mohd Zain</strong>
 					<br>zainmohd1998@gmail.com
-					<br>+91 7310672019
 					<br><a href="https://mohdzain.com/" target="_blank">mohdzain.com</a>
 				</p>
 				<a href="contact.php">Goto contact us page</a>
@@ -112,7 +111,7 @@
         </div>
         <div class="col-md-3 col-xs-6">
             <p>
-                Published on : 05 Sep,2023
+                Published on : 05 Sep,2018
             </p>
             <p class="visible-xs">Updated on : 05 sep,2023 Version:1.0</p>
         </div>
