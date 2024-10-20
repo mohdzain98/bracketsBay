@@ -1,5 +1,14 @@
 <?php
-$db=mysqli_connect("localhost","root","Geeky@Zain98","bracketsbay");
+require __DIR__ . '/../vendor/autoload.php';
+
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__. '/../');
+$dotenv->load();
+
+$uname = $_ENV['UNAME'];
+$DB_NAME=$_ENV['DB_NAME'];
+$DB_PASS=$_ENV['DB_PASS'];
+
+$db=(mysqli_connect("localhost",$uname,$DB_PASS,$DB_NAME));
 
 /*for getting user ip*/
 function getuserip(){
@@ -24,7 +33,7 @@ function addcart(){
 			echo "<script>alert('This product is already added in the cart')</script>";
 			echo "<script>window.open('details.php?pro_id=$p_id','_self')</script>";
 		}else{
-			$query="insert into cart(p_id,ip_address,qty) values('$p_id','$ip_add','$product_qty')";
+			$query="insert into cart(p_id,ip_address,qty,type) values('$p_id','$ip_add','$product_qty','none')";
 			$run_query=mysqli_query($db,$query);
 			echo "<script>window.open('details.php?pro_id=$p_id','_self')</script>";
 		}
